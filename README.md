@@ -1,7 +1,5 @@
 # TaskList
-This is a website in which you can create an account and login to the account in which you may create a list for something like groceries or school
-and you can add tasks to that list. You can also click on tasks that are completed and they will change to indicate that they are completed. You 
-can clear completed tasks and remove lists that you no longer want. The lists are currently stored in the local storag of your web browser with JSON.
-The frontend was made with vanilla javascript and the backend for the login system was made using Express, and Node.js. The users account information
-are stored in a local variable inside the server instead of a database. The passwords are protected using hash from bcrypt. I also styled the webpage
-to look nice and smooth to use and I use this app for my daily planning.
+This is a website in which you can plan out your tasks and keep track of them. You can create lists, such as "School" and you can
+add a new list will pop up. For each list, you can add as many tasks that you have to complete. After you finish a task you can mark
+it as finished and you can even clear any finished tasks. You can also delete any lists you no longer need. All the information is stored
+in the local storage so that everytime you open the webpage from your computer, your information will be stored. 
